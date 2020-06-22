@@ -1,0 +1,95 @@
+.about__paragraph{
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+.contact-cards{
+    display: flex;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+    /*width: 100%;*/
+}
+
+.contact{
+    width: 47%;
+    height: 150px;
+    display: flex;
+}
+
+.contact__img-wrapper{
+    background-color: dodgerblue;
+    height: 100%;
+    width: 35%;
+}
+
+.contact__img{
+    height: 100%;
+    width: 98%;
+}
+
+.contact__info{
+    width: 65%;
+    padding: 20px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+.contact__name{
+    font-size: 20px;
+}
+
+.contacts{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contacts__li{
+    /*margin: 100px 0;*/
+    display: flex;
+}
+
+.contacts__picture_middle{
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.response-wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contacts-response__header{
+    /*margin-top: 2px;*/
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.info{
+    width: 100%;
+}
+
+.info__item{
+    height: 2em;
+    font-size: 1.4em;
+    margin-top: 2px;
+}
+
+.info [name=message]{
+    height: 10em;
+}
+
+.response-form__btn{
+    width: 100%;
+}
+
+.two-columns{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+iframe{
+    border: orange solid 4px;
+}
